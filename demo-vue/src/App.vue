@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <Login />
+    <ChangePassword />
   </div>
 </template>
 
 <script lang="ts">
-import Login from "@/components/Login.vue";
+import ChangePassword from "@/components/ChangePassword.vue";
 
 export default {
   components: {
-    Login,
+    ChangePassword,
   },
 };
 </script>
