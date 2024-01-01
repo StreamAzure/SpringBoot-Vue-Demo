@@ -1,15 +1,13 @@
 <template>
   <div id="app">
-    <ChangePassword />
+    <router-view></router-view> <!-- 注意这里 -->
   </div>
 </template>
 
 <script lang="ts">
-import ChangePassword from "@/components/ChangePassword.vue";
 
 export default {
   components: {
-    ChangePassword,
   },
 };
 </script>
